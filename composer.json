@@ -1,0 +1,30 @@
+{
+  "name": "hive/jira-api",
+  "type": "library",
+  "description": "Client library for Jira APIs",
+  "keywords": ["jira", "jira API", "Hive Jira"],
+  "homepage": "https://github.com/winds1983/jira-api",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Jason Sun",
+      "email": "dev.winds@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "monolog/monolog": "^1.17||^2.0",
+    "guzzlehttp/guzzle": "~5.3.3||~6.0||~7.0",
+    "guzzlehttp/psr7": "^1.8.4||^2.2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hive\\Jira\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "2.x-dev"
+    }
+  }
+}
